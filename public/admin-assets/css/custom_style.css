@@ -1,0 +1,33 @@
+@font-face {
+    font-family: IranSansWebBold;
+    src: url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff');
+    src: url('../fonts/eot/IRANSansWeb(FaNum)_Bold.eot?#iefix') format('FontName-opentype'),
+    url('../fonts/woff/IRANSansWeb(FaNum)_Bold.woff') format('woff'),
+    url('../fonts/ttf/IRANSansWeb(FaNum)_Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: IranSansWeb;
+    src: url('../fonts/woff/IRANSansWeb(FaNum).woff');
+    src: url('../fonts/eot/IRANSansWeb(FaNum).eot?#iefix') format('FontName-opentype'),
+    url('../fonts/woff/IRANSansWeb(FaNum).woff') format('woff'),
+    url('../fonts/ttf/IRANSansWeb(FaNum).ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    font-family: IranSansWeb;
+}
+
+.iransans-web{
+
+}
+
+.filter-option-inner-inner {
+    text-align: right;
+    color: grey;
+}

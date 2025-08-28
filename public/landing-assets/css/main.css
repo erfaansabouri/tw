@@ -1,0 +1,607 @@
+/************************0 fonts 0****************/
+
+/**
+*
+* Name:     IRANYekan Font
+* Version:      3.0
+* Created on:   Dec 20, 2018
+* Updated on:   Dec 20, 2018
+--------------------------------------------------------------------------------------
+* 
+**/
+@font-face {
+  font-family: "iranyekanBold";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebbold.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebbold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebbold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebbold.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebbold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanThin";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebthin.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebthin.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebthin.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebthin.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebthin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanLight";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/IRANYekan/eot/iranyekanweblight.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanweblight.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanweblight.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanweblight.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanweblight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanRegular";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebregular.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebregular.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebregular.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebregular.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebregular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanMedium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebmedium.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebmedium.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebmedium.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebmedium.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebmedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanExBold";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebextrabold.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebextrabold.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebextrabold.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebextrabold.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebextrabold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanBlack";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebblack.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebblack.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebblack.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebblack.woff2") format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebblack.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "iranyekanExBlack";
+  font-style: normal;
+  font-weight: 950;
+  src: url("../fonts/IRANYekan/eot/iranyekanwebextrablack.eot");
+  src: url("../fonts/IRANYekan/eot/iranyekanwebextrablack.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/IRANYekan/woff/iranyekanwebextrablack.woff")
+      format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+      url("../fonts/IRANYekan/woff2/iranyekanwebextrablack.woff2")
+      format("woff2"),
+    /* FF39+,Chrome36+, Opera24+*/
+      url("../fonts/IRANYekan/ttf/iranyekanwebextrablack.ttf")
+      format("truetype");
+}
+
+/*--------------------------body---------------------*/
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  font-family: "iranyekanwebregular";
+}
+ul {
+  list-style: none;
+}
+button:focus,
+button:active {
+  outline: none !important;
+  box-shadow: none;
+}
+img {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0;
+}
+i {
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  display: none;
+}
+
+input::-webkit-input-placeholder,
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #969696;
+  font-family: "shabnamThin";
+}
+input::-moz-placeholder,
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #969696;
+  font-family: "shabnamThin";
+}
+input:-ms-input-placeholder,
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #969696;
+  font-family: "shabnamThin";
+}
+.form-control:-moz-placeholder,
+input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #969696;
+  font-family: "shabnamThin";
+}
+
+/*******************body********************/
+body {
+  background: #ffffff;
+  min-height: 100vh;
+  scrollbar-width: thin;
+  direction: rtl;
+}
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+  background-color: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  --webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+body.noScroll {
+  overflow: hidden;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+/**********************mainSec**************************/
+.mainSec {
+  background: url("../img/bg01.png");
+  background-position: -28px -15px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+.mainSec .mainSecBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mainSec .mainSecRght {
+  text-align: right;
+  width: 50%;
+  padding-left: 40px;
+}
+.mainSec .logoBox {
+  width: 185px;
+  height: auto;
+  display: block;
+  margin-bottom: 5px;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+.mainSec .logoBox img {
+  width: 100%;
+  height: auto;
+}
+.mainSec .logoBox:hover {
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}
+.mainSec .mainSecRght h1 {
+  font-size: 25px;
+  font-family: "iranyekanBold";
+  color: #707070;
+  margin-bottom: 25px;
+}
+.mainSec .mainSecRght .mainItems {
+  margin-bottom: 40px;
+  padding-left: 30px;
+}
+.mainSec .mainItems li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-right: -40px;
+  margin-bottom: 15px;
+}
+.mainSec .mainItems li span {
+  width: 20px;
+  min-width: 20px;
+  height: 20px;
+  margin-top: 9px;
+  background: #ffc400;
+  border: 1px solid #707070;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.mainSec .mainItems li p {
+  padding-right: 20px;
+  color: #707070;
+  font-size: 20px;
+  line-height: 1.5;
+  font-family: "iranyekanLight";
+}
+.mainSec .mainSecRght .downloadApp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+}
+.mainSec .downloadApp li {
+  width: 155px;
+}
+.mainSec .downloadApp li a {
+  display: block;
+  width: 100%;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+.mainSec .downloadApp li a img {
+  width: 100%;
+  height: auto;
+}
+.mainSec .downloadApp li a:hover {
+  transform: translateY(-2px);
+  -webkit-transform: translateY(-2px);
+  -moz-transform: translateY(-2px);
+  -ms-transform: translateY(-2px);
+  -o-transform: translateY(-2px);
+}
+.mainSec .downloadApp .appTitle {
+  display: none;
+  font-family: "iranyekanLight";
+}
+
+.mainSec .mainSecLeft {
+  width: 50%;
+  padding-top: 40px;
+}
+.mainSec .mainSecLeft .mainSecVid {
+  margin-left: 0;
+  margin-right: auto;
+  width: 280px;
+  height: auto;
+  border: 1px solid #707070;
+  background-color: #fff;
+  border-radius: 48px;
+  -webkit-border-radius: 48px;
+  -moz-border-radius: 48px;
+  -ms-border-radius: 48px;
+  -o-border-radius: 48px;
+}
+.mainSec .mainSecLeft .mainSecVid img {
+  width: 100%;
+  height: auto;
+}
+
+/*********************footer********************/
+.footerBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.footerBox .footerRght {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerBox .footerRght .copyright {
+  font-family: "iranyekanLight";
+  font-size: 22px;
+  color: #707070;
+}
+.footerBox .footerRght ul {
+  padding: 5px 10px;
+  border-right: 1px solid #707070;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 25px;
+}
+.footerBox .footerRght ul li {
+  margin: 1px 15px;
+}
+.footerBox .footerRght ul a {
+  display: block;
+  width: max-content;
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  -moz-transition: all 0.6s;
+  -ms-transition: all 0.6s;
+  -o-transition: all 0.6s;
+}
+.footerBox .footerRght ul li:nth-child(1) a {
+  height: 30px;
+}
+.footerBox .footerRght ul li:nth-child(2) a {
+  height: 30px;
+}
+.footerBox .footerRght ul li:nth-child(3) a {
+  height: 58px;
+}
+.footerBox .footerRght ul img {
+  width: auto;
+  height: auto;
+  max-height: 100%;
+}
+.footerBox .footerRght ul a:hover {
+  opacity: 0.8;
+}
+.footerBox .footerImg {
+  width: 160px;
+  height: auto;
+}
+.footerBox .footerImg img {
+  width: 100%;
+  height: auto;
+}
+
+/********************media***************************/
+@media (max-width: 1199px) {
+  .mainSec .mainItems li {
+    margin-right: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .mainSec {
+    background-size: 50%;
+  }
+  .mainSec .mainSecBox {
+    align-items: flex-start;
+  }
+  .mainSec .mainSecRght {
+    width: calc(100% - 240px);
+  }
+  .mainSec .mainSecLeft {
+    width: 240px;
+  }
+  .mainSec .mainSecLeft .mainSecVid {
+    width: 240px;
+  }
+  .mainSec .mainSecRght h1 {
+    font-size: 22px;
+  }
+  .mainSec .mainItems li p {
+    font-size: 18px;
+  }
+  .footerBox .footerRght .copyright {
+    font-size: 18px;
+  }
+  .footerBox .footerImg {
+    width: 135px;
+  }
+  .footerBox .footerRght ul li:nth-child(2) a {
+    height: 25px;
+  }
+  .footerBox .footerRght ul li:nth-child(3) a {
+    height: 46px;
+  }
+}
+@media (max-width: 767px) {
+  .mainSec {
+    background: url("../img/bg02.png");
+    background-position: -28px -15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .mainSec {
+    background-size: 55%;
+    padding: 40px 0 70px 0;
+  }
+  .mainSec .logoBox {
+    width: 150px;
+  }
+  .mainSec .mainSecLeft .mainSecVid {
+    width: 100%;
+    max-width: 240px;
+  }
+  .footerBox .footerRght ul {
+    gap: 15px;
+  }
+  .footerBox .footerRght ul li {
+    margin: 0;
+  }
+  .footerBox .footerRght ul li:nth-child(1) a {
+    height: 25px;
+  }
+  .footerBox .footerRght ul li:nth-child(2) a {
+    height: 22px;
+  }
+  .footerBox .footerRght ul li:nth-child(3) a {
+    height: 40px;
+  }
+  .mainSec .mainSecRght .mainItems {
+    margin-bottom: 20px;
+  }
+  .mainSec .downloadApp .appTitle {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #707070;
+    margin-top: 15px;
+    width: 100%;
+  }
+  .footerBox .footerRght .copyright {
+    font-size: 16px;
+    text-align: center;
+  }
+  .mainSec .mainSecBox {
+    flex-direction: column-reverse;
+  }
+  .mainSec .mainSecRght {
+    width: 100%;
+    padding: 0;
+  }
+  .mainSec .mainSecRght .downloadApp {
+    justify-content: center;
+  }
+  .mainSec .mainSecLeft {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-top: 25px;
+  }
+  .mainSec .mainSecLeft .mainSecVid {
+    margin-left: auto;
+  }
+  .footerBox .footerImg {
+    display: none;
+  }
+  .footerBox {
+    margin-top: 5px;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+  .footerBox .footerRght {
+    flex-direction: column;
+  }
+  .footerBox .footerRght ul {
+    border: none;
+    margin-top: 15px;
+  }
+  .mainSec .mainSecRght h1 {
+    font-size: 20px;
+  }
+  .mainSec .mainItems li p {
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  .mainSec .mainItems li span {
+    width: 15px;
+    min-width: 15px;
+    height: 15px;
+    margin-top: 4px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .mainSec {
+    background-position: -55px -41px;
+    background-size: 74%;
+  }
+}
+@media (max-width: 480px) {
+  .mainSec {
+    background-position: -50px -33px;
+    background-size: 100%;
+  }
+}
