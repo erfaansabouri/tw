@@ -47,7 +47,7 @@ class AuthController extends Controller
                                         'message' => 'کد با موفقیت ارسال شد.',
                                     ]);
         }
-        $code = rand(1000, 9999);
+        $code = 9999;
         if ($cooldownSeconds = Helper::getSmsCooldown($phone)) {
             throw ValidationException::withMessages(['phone' => "لطفا {$cooldownSeconds} ثانیه دیگر تلاش کنید."]);
         }
