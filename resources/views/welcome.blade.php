@@ -46,7 +46,7 @@
                                 <p>نسخه مستقیم WebApp</p>
                             </li>
                             <li>
-                                <a href="https://webapp.21dayapp.com/" target="_blank">
+                                <a href="https://webapp.sinaghafari.com/" target="_blank">
                                     <img src="{{ asset('landing-assets/img/webapp-2.png') }}" alt="img" />
                                 </a>
                             </li>
